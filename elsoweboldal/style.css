@@ -1,0 +1,10 @@
+.red-box{background-color: red;
+    color: rgb(246, 246, 245);
+    font-size: 25px;
+    text-align: center;}
+
+.rounded{border-radius: 50px;}
+
+.my-title{
+    font-size: 50px !important;
+}

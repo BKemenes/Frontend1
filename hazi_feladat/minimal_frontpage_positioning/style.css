@@ -1,0 +1,90 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header-container {
+  margin-top: 0;
+  background: url(./image/banner.jpg);
+  background-size: 100%;
+  height: 30vw;
+  position: relative;
+}
+.main-menu-container {
+  margin-left: 200px;
+}
+.main-menu {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: block;
+  text-align: center;
+  padding: 0;
+  border-left-style: solid;
+  border-left-color: rgba(129, 225, 255, 0.63);
+  border-left-width: 5px;
+}
+.main-menu-items {
+  width: 120px;
+  display: block;
+  background-color: rgba(63, 117, 134, 0.3);
+  padding: 0;
+}
+.main-menu-items a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.main-menu-items a:hover {
+  width: 120px;
+  padding: 15px;
+  background-color: #4cc3c3;
+}
+.trans-all {
+  transition: all 200ms ease-out;
+}
+.company-intro {
+  position: absolute;
+  right: 10vw;
+  top: 50px;
+  background-color: rgba(40, 70, 66, 0.4);
+  width: 50%;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.65);
+}
+.company-intro-lead {
+  margin-bottom: 0;
+  padding: 20px;
+  font-size: 40px;
+  color: white;
+}
+.company-intro-body {
+  margin-top: 0;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+}
+.szoveg {
+  margin: 100px 200px;
+  line-height: 1.5;
+}
+.content-image-container {
+  float: right;
+}
+.content-lead {
+  font-size: larger;
+  padding: 10px 0;
+}
+.content-body {
+  font-size: medium;
+  padding-bottom: 50px;
+}
+footer {
+  position: relative;
+  background-color: rgb(26, 66, 80);
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
